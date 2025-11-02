@@ -15,11 +15,11 @@ if (avatarContainer) {
 
   const backCandidates = [
     originalBackSrc,
-    'icons/alt1.png',
-    'icons/alt2.png',
-    'icons/alt3.png',
-    'icons/alt4.png',
-    'icons/alt5.png'
+    'Icons/alt1.png',
+    'Icons/alt2.png',
+    'Icons/alt3.png',
+    'Icons/alt4.png',
+    'Icons/alt5.png'
   ];
 
   const swapProbability = 0.835; 
