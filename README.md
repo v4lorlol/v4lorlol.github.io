@@ -1,6 +1,13 @@
-### greetings and salutations chat
+### greetings and salutations chat, this website is lowkey peak
 ts pmo  
 gurt: yo
 
 
-67
+
+
+
+
+
+
+
+help i am so bad at this
