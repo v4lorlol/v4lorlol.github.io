@@ -224,8 +224,12 @@ document.addEventListener("DOMContentLoaded", () => {
       svg.innerHTML = `
       <defs>
         <linearGradient id="g-${clipId}" x1="0" x2="0" y1="0" y2="1">
-          <stop offset="0%" stop-color="${getComputedStyle(document.documentElement).getPropertyValue("--blue-2") || "#00aaff"}"/>
-          <stop offset="105%" stop-color="${getComputedStyle(document.documentElement).getPropertyValue("--blue-1") || "#007bff"}"/>
+          <stop offset="0%" stop-color="${
+            getComputedStyle(document.documentElement).getPropertyValue("--blue-2") || "#00aaff"
+          }"/>
+          <stop offset="105%" stop-color="${
+            getComputedStyle(document.documentElement).getPropertyValue("--blue-1") || "#007bff"
+          }"/>
         </linearGradient>
         <clipPath id="${clipId}">
           <path id="wave-path-${i}" d="" />
