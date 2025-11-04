@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>V4lor's Place</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="favicon.png">
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
-  <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V4lor's Place</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
     <p class="credit">Profile pictures by VipexArtz, Zowoe, Loom, Etun, & NikaBika!</p>
-    <div class="avatar-container">
-      <img src="pfpfront.png" class="avatar back" />
-      <img src="pfpback.png" class="avatar front" />
+    <div class="container-main">
+      <div class="avatar-container">
+        <img src="pfpfront.png" class="avatar back" />
+        <img src="pfpback.png" class="avatar front" />
+      </div>
+      <h1>V4lor's Place</h1>
+      <p class="handle">@v4lorlol</p>
+      <p class="location">📍 Portland, OR</p>
+      <hr />
+      <p class="intro">
+        👋 Heya, I'm Evan!<br />
+        (Or Finn, or V4lor, whatever you wanna call me,<br />
+        I'm a man of many names lol)<br />
+        I work on cars, develop software as a hobby,<br />
+        film stuff, and produce music!
+      </p>
+      <hr />
+      <p class="links-title">Check out some of my work:</p>
+      <nav class="pill-nav" aria-label="Primary">
+        <ul class="pill-nav__list">
+          <li>
+            <a href="/index.html" class="pill-nav__link active" aria-current="page">
+              Home
+              <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/music.html" class="pill-nav__link">
+              Music
+              <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="/portfolio.html" class="pill-nav__link">
+              Videography
+              <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/v4lorlol" class="pill-nav__link">
+              Programming
+              <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com/evan.runs" class="pill-nav__link">
+              Instagram
+              <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <h1>V4lor's Place</h1>
-    <p class="handle">@v4lorlol</p>
-    <p class="location">📍 Portland, OR</p>
-    <hr />
-    <p class="intro">👋 Heya, I'm Evan!<br />
-      (Or Finn, or V4lor, whatever you wanna call me,<br />
-      I'm a man of many names lol)<br />
-      I work on cars, develop software as a hobby,<br />
-      film stuff, and produce music!
-    </p>
-    <hr />
-    <p class="links-title">Check out some of my work:</p>
-  <nav class="pill-nav" aria-label="Primary">
-    <ul class="pill-nav__list">
-      <li><a href="/index.html" class="pill-nav__link active" aria-current="page">
-        Home
-        <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
-      </a></li>
-
-      <li><a href="/music.html" class="pill-nav__link">
-        Music
-        <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
-      </a></li>
-
-      <li><a href="/portfolio.html" class="pill-nav__link">
-        Videography
-        <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
-      </a></li>
-
-      <li><a href="https://github.com/v4lorlol" class="pill-nav__link">
-        Programming
-        <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
-      </a></li>
-
-      <li><a href="https://instagram.com/evan.runs" class="pill-nav__link">
-        Instagram
-        <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
-      </a></li>
-    </ul>
-  </nav>
-    </div>
-  </div>
     <p class="footer">©2025 Evan Shumate :3</p>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

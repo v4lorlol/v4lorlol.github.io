@@ -1,100 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Musical Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-</head>
-<body>
-  <div class="container portfolio">
-    <div class="avatar-container">
-      <img src="pfpfront.png" class="avatar back" alt="avatar back" />
-      <img src="pfpback.png" class="avatar front" alt="avatar front" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Musical Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <div class="container portfolio">
+      <div class="topbar" role="banner">
+        <div class="topbar-left">
+          <h2>Music Projects</h2>
+        </div>
+        <nav class="pill-nav" aria-label="Primary">
+          <ul class="pill-nav__list">
+            <li>
+              <a href="/index.html" class="pill-nav__link pill-nav__home" aria-current="page">
+                Home
+                <svg class="pill-nav__wave" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="scroll-area">
+        <hr class="divider" />
+        <div class="grid-container">
+          <section class="project-grid" aria-label="Music projects">
+            <p class="grid-intro">
+              Some musical projects I've worked on! These are a mix of bands I have been a part of, as well as some
+              personal projects. Click on the pictures to open each website!
+            </p>
+            <!-- Card 1 -->
+            <article class="project-card" aria-labelledby="proj1-title">
+              <a
+                class="project-site"
+                href="https://www.instagram.com/realcratesofmilk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Toska - Instagram"
+              >
+                <div class="project-cover">
+                  <img src="Covers/Haunted.jpg" alt="Haunted Cover" />
+                </div>
+              </a>
+
+              <div class="project-meta">
+                <strong id="proj1-title" class="project-title">Crates Of Milk / Toska - Haunted</strong>
+                <div class="project-sub">Production, drumming, backing vocals</div>
+              </div>
+
+              <div class="project-player">
+                <audio controls preload="none" src="audio/haunted cut.wav"></audio>
+              </div>
+
+              <div class="project-links">
+                <a
+                  class="btn-stream"
+                  href="https://open.spotify.com/artist/5G1nPannhQwLirWDKNiBXS"
+                  target="_blank"
+                  rel="noopener"
+                  >🎧 Spotify</a
+                >
+                <a
+                  class="btn-stream"
+                  href="https://music.apple.com/us/artist/crates-of-milk/1785181113"
+                  target="_blank"
+                  rel="noopener"
+                  >🍎 Apple Music</a
+                >
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="project-card" aria-labelledby="proj2-title">
+              <a
+                class="project-site"
+                href="https://sleeperwaveband.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sleeper Wave Official Website"
+              >
+                <div class="project-cover">
+                  <img src="Covers/Sleeper Wave.jpg" alt="Sleeper Wave" />
+                </div>
+              </a>
+
+              <div class="project-meta">
+                <strong id="proj2-title" class="project-title">Sleeper Wave</strong>
+                <div class="project-sub">Drumming, production</div>
+              </div>
+
+              <div class="project-links">
+                <a
+                  class="btn-stream"
+                  href="https://open.spotify.com/artist/5rN5KWNEnkFluZK9Uzt3EX"
+                  target="_blank"
+                  rel="noopener"
+                  >🎧 Spotify</a
+                >
+                <a
+                  class="btn-stream"
+                  href="https://music.apple.com/us/artist/sleeper-wave/1841879677"
+                  target="_blank"
+                  rel="noopener"
+                  >🍎 Apple Music</a
+                >
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="project-card" aria-labelledby="proj2-title">
+              <a
+                class="project-site"
+                href="https://hyperfollow.com/finnfox"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sleeper Wave Official Website"
+              >
+                <div class="project-cover">
+                  <img src="Covers/Finn.jpg" alt="FinnFox" />
+                </div>
+              </a>
+
+              <div class="project-meta">
+                <strong id="proj2-title" class="project-title">FinnFox</strong>
+                <div class="project-sub">Personal project</div>
+              </div>
+
+              <div class="project-player">
+                <audio controls preload="none" src="audio/beaft 2.mp3"></audio>
+              </div>
+
+              <div class="project-links">
+                <a
+                  class="btn-stream"
+                  href="https://open.spotify.com/artist/3AlZf9OiRXV40mSZhjVRdS"
+                  target="_blank"
+                  rel="noopener"
+                  >🎧 Spotify</a
+                >
+                <a
+                  class="btn-stream"
+                  href="https://music.apple.com/us/artist/finnfox/1750830714"
+                  target="_blank"
+                  rel="noopener"
+                  >🍎 Apple Music</a
+                >
+              </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="project-card" aria-labelledby="proj2-title">
+              <a
+                class="project-site"
+                href="https://hyperfollow.com/finnfox"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sleeper Wave Official Website"
+              >
+                <div class="project-cover">
+                  <img src="Covers/Finn.jpg" alt="FinnFox" />
+                </div>
+              </a>
+
+              <div class="project-meta">
+                <strong id="proj2-title" class="project-title">FinnFox</strong>
+                <div class="project-sub">Personal project</div>
+              </div>
+
+              <div class="project-player">
+                <audio controls preload="none" src="audio/beaft 2.mp3"></audio>
+              </div>
+
+              <div class="project-links">
+                <a
+                  class="btn-stream"
+                  href="https://open.spotify.com/artist/3AlZf9OiRXV40mSZhjVRdS"
+                  target="_blank"
+                  rel="noopener"
+                  >🎧 Spotify</a
+                >
+                <a
+                  class="btn-stream"
+                  href="https://music.apple.com/us/artist/finnfox/1750830714"
+                  target="_blank"
+                  rel="noopener"
+                  >🍎 Apple Music</a
+                >
+              </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="project-card" aria-labelledby="proj2-title">
+              <a
+                class="project-site"
+                href="https://hyperfollow.com/finnfox"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sleeper Wave Official Website"
+              >
+                <div class="project-cover">
+                  <img src="Covers/Finn.jpg" alt="FinnFox" />
+                </div>
+              </a>
+
+              <div class="project-meta">
+                <strong id="proj2-title" class="project-title">FinnFox</strong>
+                <div class="project-sub">Personal project</div>
+              </div>
+
+              <div class="project-player">
+                <audio controls preload="none" src="audio/beaft 2.mp3"></audio>
+              </div>
+
+              <div class="project-links">
+                <a
+                  class="btn-stream"
+                  href="https://open.spotify.com/artist/3AlZf9OiRXV40mSZhjVRdS"
+                  target="_blank"
+                  rel="noopener"
+                  >🎧 Spotify</a
+                >
+                <a
+                  class="btn-stream"
+                  href="https://music.apple.com/us/artist/finnfox/1750830714"
+                  target="_blank"
+                  rel="noopener"
+                  >🍎 Apple Music</a
+                >
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
     </div>
-
-    <h1>Music Projects</h1>
-
-    <div class="links">
-      <a href="index.html">Home</a>
-    </div>
-
-    <hr />
-    <p class="intro">
-      Some musical projects I've worked on! These are a mix of bands I have been a part of, as well as some personal projects. Click on the pictures to open each website!
-    </p>
-    <hr />
-
-    <section class="project-grid" aria-label="Music projects">
-      <!-- Card 1 -->
-      <article class="project-card" aria-labelledby="proj1-title">
-        <a class="project-site" href="https://www.instagram.com/realcratesofmilk/" target="_blank" rel="noopener noreferrer" aria-label="Toska - Instagram">
-          <div class="project-cover">
-            <img src="Covers/Haunted.jpg" alt="Haunted Cover">
-          </div>
-        </a>
-
-        <div class="project-meta">
-          <strong id="proj1-title" class="project-title">Crates Of Milk / Toska - Haunted</strong>
-          <div class="project-sub">Production, drumming, backing vocals</div>
-        </div>
-
-        <div class="project-player">
-          <audio controls preload="none" src="audio/haunted cut.wav"></audio>
-        </div>
-
-        <div class="project-links">
-          <a class="btn-stream" href="https://open.spotify.com/artist/5G1nPannhQwLirWDKNiBXS" target="_blank" rel="noopener">🎧 Spotify</a>
-          <a class="btn-stream" href="https://music.apple.com/us/artist/crates-of-milk/1785181113" target="_blank" rel="noopener">🍎 Apple Music</a>
-        </div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="project-card" aria-labelledby="proj2-title">
-        <a class="project-site" href="https://sleeperwaveband.com/" target="_blank" rel="noopener noreferrer" aria-label="Sleeper Wave Official Website">
-          <div class="project-cover">
-            <img src="Covers/Sleeper Wave.jpg" alt="Sleeper Wave">
-          </div>
-        </a>
-
-        <div class="project-meta">
-          <strong id="proj2-title" class="project-title">Sleeper Wave</strong>
-          <div class="project-sub">Drumming, production</div>
-        </div>
-
-        <div class="project-links">
-          <a class="btn-stream" href="https://open.spotify.com/artist/5rN5KWNEnkFluZK9Uzt3EX" target="_blank" rel="noopener">🎧 Spotify</a>
-          <a class="btn-stream" href="https://music.apple.com/us/artist/sleeper-wave/1841879677" target="_blank" rel="noopener">🍎 Apple Music</a>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="project-card" aria-labelledby="proj2-title">
-        <a class="project-site" href="https://hyperfollow.com/finnfox" target="_blank" rel="noopener noreferrer" aria-label="Sleeper Wave Official Website">
-          <div class="project-cover">
-            <img src="Covers/Finn.jpg" alt="FinnFox">
-          </div>
-        </a>
-
-        <div class="project-meta">
-          <strong id="proj2-title" class="project-title">FinnFox</strong>
-          <div class="project-sub">Personal project</div>
-        </div>
-
-        <div class="project-player">
-          <audio controls preload="none" src="audio/beaft 2.mp3"></audio>
-        </div>
-
-        <div class="project-links">
-          <a class="btn-stream" href="https://open.spotify.com/artist/3AlZf9OiRXV40mSZhjVRdS" target="_blank" rel="noopener">🎧 Spotify</a>
-          <a class="btn-stream" href="https://music.apple.com/us/artist/finnfox/1750830714" target="_blank" rel="noopener">🍎 Apple Music</a>
-        </div>
-      </article>
-
-    </section>
-  </div>
-  <p class="footer">©2025 Evan Shumate :3</p>
-  <script src="script.js"></script>
-</body>
+    <p class="footer">©2025 Evan Shumate :3</p>
+    <script src="script.js"></script>
+  </body>
 </html>
